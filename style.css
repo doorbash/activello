@@ -317,7 +317,7 @@ textarea {
   margin: 0 0 1.5em;
 }
 .main-content-area {
-  margin-top: 40px;
+  /*margin-top: 40px;*/
   margin-bottom: 40px;
 }
 /* =Post styling
@@ -926,7 +926,7 @@ input[type=submit] {
 /* =Custom Styles
 ----------------------------------------------- */
 #logo {
-  padding: 50px 0 45px 0;
+  padding: 50px 0 40px 0;
   text-align: center;
 }
 #line {
@@ -1737,3 +1737,6 @@ table#wp-calendar {
 .full-width {
   width: 100%;
 }
+
+.cat-item {visibility: hidden;display:inline;}
+.site-name a {color:#1c202a;}

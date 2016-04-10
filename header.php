@@ -93,9 +93,9 @@
 				<?php endif; ?>
 			</div><!-- end of #logo -->
 
-			<?php if( ! is_front_page() || ! is_home() ) : ?>
+			
 			<div id="line"></div>
-			<?php endif; ?>
+			
 		</div>
 
 	</header><!-- #masthead -->
@@ -110,9 +110,6 @@
 		<div class="container main-content-area">
 
 			<?php if( is_single() && has_category() ) : ?>
-			<div class="cat-title">
-				<?php echo get_the_category_list(); ?>
-			</div>
 			<?php endif; ?>
                         <?php
                             global $post;
