@@ -155,8 +155,7 @@ endif;
  */
 function activello_footer_info() {
 global $activello_footer_info;
-  printf( esc_html__( 'فارسی شده توسط %1$s', 'activello' ) , '<a href="http://colorlib.com/" target="_blank">همیار وردپرس</a>');
-  
+  echo 'من را در <a href="https://twitter.com/doorbash" target="_blank">توییتر</a> و <a href="https://www.instagram.com/doorbash" target="_blank">اینستاگرام</a> دنبال کنید یا به من یک <a href="mailto:milad.doorbash@gmail.com" target="_blank">ایمیل</a> بزنید یا در <a href="https://telegram.me/doorbash" target="_blank">تلگرام</a> به من پیام دهید.<br>بازنشر با ذکر نام و لینک به منبع مجاز است.<br><a href="http://wordpress.org" target="_blank">با افتخار نیرو گرفته از وردپرس</a>';
 }
 
 
