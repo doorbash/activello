@@ -51,7 +51,6 @@ body {
 }
 
 a {
-  color: #393939;
   text-decoration: none;
   -webkit-transition: all 0.3s;
      -moz-transition: all 0.3s;
@@ -317,7 +316,7 @@ textarea {
   margin: 0 0 1.5em;
 }
 .main-content-area {
-  /*margin-top: 40px;*/
+  margin-top: 40px;
   margin-bottom: 40px;
 }
 /* =Post styling
@@ -1570,7 +1569,7 @@ p.logged-in-as {
   text-align: center;
 }
 .site-info a {
-  color: #777;
+  color: #393939;
 }
 .site-info a:hover {
   color: #a161bf;
