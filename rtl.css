@@ -121,7 +121,7 @@ article.post .post-categories:after,
 }
 
 article.post {
-	padding-left: 10px;
+	padding-left: 0;
 	padding-right: 0;
 }
 
@@ -142,7 +142,7 @@ article.post .post-categories:after,
 }
 
 article.post {
-	padding-left: 10px;
+	padding-left: 0;
 	padding-right: 0;
 }
 
@@ -167,7 +167,7 @@ article.post .post-categories:after,
 }
 
 article.post {
-	padding-left: 10px;
+	padding-left: 0;
 	padding-right: 0;
 }
 

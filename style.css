@@ -448,10 +448,8 @@ article.post:first-child .post-inner-content {
   font-style: normal;
 }
 .cat-title {
-  border-bottom: 1px solid #dedede;
-  margin: -30px 0 50px 0;
-  padding-bottom: 20px;
-  text-align: center;
+  visibility: hidden;
+  margin: -30px 0 30px 0;
 }
 .cat-title ul {
   margin: 0;
