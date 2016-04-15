@@ -316,7 +316,7 @@ textarea {
   margin: 0 0 1.5em;
 }
 .main-content-area {
-  margin-top: 40px;
+  margin-top: 20px;
   margin-bottom: 40px;
 }
 /* =Post styling
@@ -448,7 +448,7 @@ article.post:first-child .post-inner-content {
 }
 .cat-title {
   visibility: hidden;
-  margin: -30px 0 30px 0;
+  margin: -30px 0 10px 0;
 }
 .cat-title ul {
   margin: 0;
