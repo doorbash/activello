@@ -316,7 +316,7 @@ textarea {
   margin: 0 0 1.5em;
 }
 .main-content-area {
-  margin-top: 20px;
+  margin-top: 40px;
   margin-bottom: 40px;
 }
 /* =Post styling
@@ -448,7 +448,8 @@ article.post:first-child .post-inner-content {
 }
 .cat-title {
   visibility: hidden;
-  margin: -30px 0 10px 0;
+  margin: -30px 0 30px 0;
+  display: none;
 }
 .cat-title ul {
   margin: 0;
@@ -1735,5 +1736,5 @@ table#wp-calendar {
   width: 100%;
 }
 
-.cat-item {visibility: hidden;display:inline;}
+.cat-item {visibility: hidden;display:none;}
 .site-name a {color:#1c202a;}
