@@ -525,29 +525,25 @@ article.grid iframe {
         border: 0;
         padding: 0 0 30px;
     }
-    .blog.home .page-1 article.post:first-child, .blog.home .page-1 article.post:nth-child(2) {
+    .blog.home .page-1 article.post:first-child, .blog.home .page-1 article.post {
         width: 100%;
         padding: 0!important;
     }
-    .blog.home .page-1 article.post:first-child .post-inner-content, .blog.home .page-1 article.post:nth-child(2) .post-inner-content{
+    .blog.home .page-1 article.post:first-child .post-inner-content, .blog.home .page-1 article.post .post-inner-content{
         border-bottom: 1px solid #dedede;
     }
     .blog.home .page-1 article.post:first-child .post-inner-content{
         padding: 0 0 50px;
     }
-    .blog.home .page-1 article.post:nth-child(2) .post-inner-content{
+    .blog.home .page-1 article.post .post-inner-content{
         padding: 50px 0;
         margin-bottom: 30px;
     }
-    .blog.home .page-1 article.post:first-child .read-more, .blog.home .page-1 article.post:nth-child(2) .read-more,
-    .blog.home .page-1 article.post:first-child .entry-footer, .blog.home .page-1 article.post:nth-child(2) .entry-footer{
+    .blog.home .page-1 article.post:first-child .read-more, .blog.home .page-1 article.post .read-more,
+    .blog.home .page-1 article.post:first-child .entry-footer, .blog.home .page-1 article.post .entry-footer{
         display: block;
     }
-    .blog.home article.post:nth-child(odd){
-        clear: left;
-        padding-right: 25px;
-    }
-    .blog.home article.post:nth-child(even){
+    .blog.home article.post{
         padding-left: 25px;
     }
 }
