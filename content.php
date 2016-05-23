@@ -44,7 +44,11 @@
 			<div class="entry-content">
 
 				<?php
-				the_content();
+				if ( get_the_excerpt() != "" ) :
+					the_excerpt();
+				else :
+					the_content();
+				endif;
 			  ?>
 
 				<?php
@@ -58,11 +62,11 @@
 						) );
 				?>
 
-				<!-- <?php if( ! is_single() ) : ?>
+				<?php if( ! is_single() ) : ?>
 				<div class="read-more">
 					<a href="<?php the_permalink(); ?>" title="<?php the_title_attribute(); ?>"><?php esc_html_e( 'Read More', 'activello' ); ?></a>
 				</div>
-				<?php endif; ?> -->
+				<?php endif; ?>
 
                                 <?php if ( ! post_password_required() && ( comments_open() || '0' != get_comments_number() ) ) : ?>
                                     <div class="entry-footer">

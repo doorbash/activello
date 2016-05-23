@@ -323,3 +323,11 @@ if (!function_exists('get_activello_theme_setting'))  {
   }
 }
 add_action('wp_head','get_activello_theme_setting',10);
+
+
+/* Modify the read more link on the_excerpt() */
+ 
+function et_excerpt_length($length) {
+    return 220;
+}
+add_filter('excerpt_length', 'et_excerpt_length');
